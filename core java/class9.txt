@@ -1,0 +1,204 @@
+Q) Is java purely object oriented or not?
+
+No, java will not consider purely object oriented programming language because it does not support many OOPS concepts like multiple inheritance, operator overloading and more ever we depends upon primitive datatypes which are non-objects.
+
+
+Types of variables
+==================
+A name which is given to a memory location is called variable.
+
+Purpose of variable is used to store the data.
+
+In java, We have two types of variables.
+
+1) Primitive variables 
+-----------------------
+	It is used to represent primitive values.
+
+2) Reference variables
+-----------------------
+	It is used to represent object reference.
+	ex:
+		Student s=new Student();
+			|
+		reference variable 
+
+Based on the position and execution these variables are divided into three types.
+
+1) Instance variable / Non-static variable
+
+2) Static variable / Global variable 
+
+3) Local variable / Temperory variable / Automatic variable 
+
+1) Instance variable
+---------------------
+A value of a variable which is varied(changes) from object to object is called instance variable.
+
+Instance variable will be created at the time of object creation and it will destroy at the time of object destruction.Hence scope of instance variable is same as scope of an object.
+
+Instance variable will store in heap area as a part of an object.
+
+Instance variable must and should declare immediately after the class but not inside methods, blocks and constructors.
+
+Instance variable we can access directly from instance area but we can't access directly from static area.
+
+To access instance variable from static area we need to use create object reference.
+
+ex:
+---
+class Test
+{
+	//instance variable 
+	int i=10;
+
+	public static void main(String[] args)
+	{
+		System.out.println(i); 	
+	}
+}
+o/p:
+	// C.T.E : non-static variable i cannot be referenced from a static context 
+
+
+ex:
+---
+class Test
+{
+	//instance variable 
+	int i=10;
+
+	public static void main(String[] args)
+	{
+		Test t=new Test();
+	
+		System.out.println(t.i); // 10	
+	}
+}
+
+Note:
+-----
+If we won't initialize any value to instance variable then JVM will initialized default values.
+
+ex:
+----
+class Test
+{
+	//instance variable 
+	boolean b;
+
+	public static void main(String[] args)
+	{
+		Test t=new Test();
+		System.out.println(t.b); // false 		
+	}
+}
+
+ex:
+---
+class Test
+{
+	//instance variable
+	int i=10;
+
+	public static void main(String[] args)
+	{
+		Test t1=new Test();
+		Test t2=new Test();
+
+		System.out.println(t1.i); // 10
+		System.out.println(t2.i); // 10	
+
+		t1.i=100;
+
+		System.out.println(t1.i); // 100
+		System.out.println(t2.i); // 10	
+	}
+}
+
+ex:
+---
+class Test
+{
+	public static void main(String[] args)
+	{
+		//calling 
+		Test t=new Test();
+		t.m1();
+	}
+
+	//non-static method 
+	public void m1()
+	{
+		System.out.println("instance-method");	
+	}
+}
+
+
+Logical Question
+=================
+Q) Jack and John both are best friends in a town.They study in a same class in a school.While going to school they found one begger and they have decided to assist that poor guy.Jack gave 100 rupees from his school fees and John gave 20 rupees from his pocket. Write a java program to calculate total contribution towards a needy person?
+
+class Test
+{
+	public static void main(String[] args)
+	{
+		Test t=new Test();
+		t.sum();
+	}
+
+	//non-static method 
+	public void sum()
+	{
+		int a=100;
+		int b=20;
+		System.out.println(a+b);
+	}	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,162 @@
+Comments in Java
+================
+Comments are created for documentation purpose.
+
+Comments are used to improve readability of our code.
+
+It is highly recommended to use comments in regular programming.
+
+Diagram: class1.1
+
+Comments will not display in output because they won't compiled by the compiler.
+
+In java, We have two types of comments.
+
+1) Single line comment 
+
+2) Multiple line comment 
+
+1) Single line comment 
+----------------------
+It is used to comment a single line.
+Ex:
+		// comment here 
+
+2) Multiple line comment
+------------------------
+It is used to comment multiple lines.
+Ex:
+		/*
+			-
+			- comment here 
+			-
+		*/
+
+Program
+--------
+
+//class declaration 
+class  Test
+{
+	//main method 
+	public static void main(String[] args)
+	{
+		//variable declaration 
+		int n=2;
+
+		//logic to find out even or odd
+		if((n&1)==0)
+			System.out.println("Even");
+		else
+			System.out.println("Odd");
+	}
+}
+
+Interview Questions
+===================
+
+Q) What is Java?
+
+Java is a object oriented, platform independent, case sensitive, strongly typed checking, high level, open source programming language developed by James Gosling in the year of 1995.
+
+or
+
+Java is a versatile language which is used to develop various types of applications like standalone applications, desktop applications, distributed applications, enterprise applications, networking applications, ERP applications , mobile applications and etc.
+
+
+
+
+Q) Is java platform dependent or independent?
+
+Java is a platform independent programming language.
+
+Diagram: class1.2
+
+
+
+Q) Is JVM platform dependent or independent?
+
+JVM consider as platform dependent.	 
+
+
+
+Q) What is project?
+
+It is an individual or collaborative work in a enterprise that is carefully planned to achieve a particular aim/goal.
+
+Technically , a project is a collection of modules.
+
+ex:
+	Admin module 
+	customer module 
+	registartion module 
+	report generation module
+	payment module 
+	and etc.
+
+Every project contains two domains.
+
+1) Technical domain 
+------------------
+	Technical domain describes using which technology we developed our project.
+	ex:
+		Java
+
+2) Functional domain 
+---------------------
+	Functional domain describes state of a project.
+	ex:
+		Healthcare domain 
+		Banking domain 
+		Insaurance domain 
+		ERP domain 
+		and etc.		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

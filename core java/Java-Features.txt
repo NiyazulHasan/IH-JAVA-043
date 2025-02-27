@@ -1,0 +1,32 @@
+Q) Explain important features in java?
+
+We have following important features in java.
+
+1) Simple 
+
+2) platform independent (WORA)
+
+3) Object oriented 
+
+4) Architecture Neutral 
+
+5) Robust 
+
+6) Portable  
+
+7) Multithreaded
+
+8) Dynamic 
+
+9) Distributed 
+
+10) Highly secured.
+
+and etc.
+
+
+
+
+
+
+

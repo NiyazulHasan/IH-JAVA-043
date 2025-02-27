@@ -1,0 +1,139 @@
+SDLC
+=====
+SDLC stands Software Development Life Cycle.
+
+It is a process adopt by IT industries to develop accurate and quality of software's.
+
+We have six phases in SDLC.
+
+1) Feasibility study 
+2) Analysis
+3) Designing 
+4) Coding 
+5) Testing 
+6) Delivery and Maintainence
+
+1) Feasibility study 
+---------------------
+Feasibility study depends upon TELOS formulea.
+ex:
+	T	-	Technical Feasibility 
+	E 	-	Economical Feasibility 
+	L 	-	Legal Feasibility 
+	O	-	Operational Feasibility 
+	S 	-	Schedule Feasibility 
+
+All the above information we will keep in a document called BDD.
+
+BDD stands for Business Design Document.
+
+
+2) Analysis
+---------------
+In this phase, System analyst or product owner will involved.
+
+They will seperate system requirements and software requirements.
+
+They will keep all the above information in a document called SRS.
+
+SRS stands for Software Requirement Specification.
+
+
+3) Designing 
+--------------
+We have two types of designing.
+
+1) High level designing 
+
+2) Low level designing 
+
+1) High level designing 
+--------------------------
+> A manager is responsible to perform high level designing.
+
+> In high level designing , we will design main modules or major modules.
+
+2) Low level designing 
+------------------------
+> A team lead or project lead is responsible to perform low level designing.
+
+> In low level desiging , we will design child modules or sub modules.
+
+All the above information they will keep in a document called PDD/TDD.
+
+PDD stands for Project Design Document.
+TDD stands for Technical Design Document.
+
+4) Coding 
+------------
+In this phase, developers will involved.
+
+Developers are responsible to generate the build.
+
+Once if our build is ready then we need to perform unit testing.
+
+
+5) Testing
+-----------
+In this phase, Testing Team or QA team will involved.
+
+Testing team is responsible to test the code by using a software component called STLC.
+
+STLC stands for Software Testing Life Cycle.
+
+Testing teams makes our project as bug free.
+
+
+6) Delivery and Maintainence
+----------------------------
+Before delivery , company performs UAT testing.
+
+UAT stands User Acceptance Testing.
+
+It is divided into two types.
+
+i) Alpha Testing 
+
+ii) Beta Testing 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
